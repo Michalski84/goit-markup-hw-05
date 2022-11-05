@@ -11,10 +11,6 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
-    />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
@@ -290,10 +286,10 @@
         </ul>
       </section>
     </main>
-   <footer class=" footer">
-      <section class="container footer-box">
+    <footer class=" footer">
+      <div class="container footer-box">
       <div class="footer-address">
-        <a class="logo-footer" href=""><span class="web">Web</span>Studio</a>
+        <a class="logo-footer" href="/"><span class="web">Web</span>Studio</a>
         <address class="address">
           <ul class="contact-list">
             <li>m. Warszawa, Aleje Jerozolimskie 21</li>
@@ -312,21 +308,23 @@
       </div>
       <div class="footer-social-media">
         <h5 class="footer-text">DOŁĄCZ DO NAS</h5>
-           <a href="/"><svg class="social-media-link-footer" width="44" height="44">
+        <ul class="footer-social-media-list">
+          <li class="footer-social-media-item"><a href="/"><svg class="social-media-link-footer" width="44" height="44">
               <use href="./images/icons.svg#icon-instagram"></use>
-              </svg></a>
-            <a href="/"><svg class="social-media-link-footer" width="44" height="44">
+              </svg></a></li>
+          <li class="footer-social-media-item"><a href="/"><svg class="social-media-link-footer" width="44" height="44">
                 <use href="./images/icons.svg#icon-twitter">
                 </use>
-              </svg></a>
-            <a href="/"><svg class="social-media-link-footer" width="44" height="44">
+              </svg></a></li>
+          <li class="footer-social-media-item"><a href="/"><svg class="social-media-link-footer" width="44" height="44">
               <use href="./images/icons.svg#icon-facebook"></use>
-              </svg></a>
-            <a href="/"><svg class="social-media-link-footer" width="44" height="44">
+              </svg></a></li>
+          <li class="footer-social-media-item"><a href="/"><svg class="social-media-link-footer" width="44" height="44">
                 <use href="./images/icons.svg#icon-linkedin"></use>
-                </svg></a>
+                </svg></a></li>
+        </ul>
       </div>
-      </section>
+    </div>
     </footer>
   </body>
 </html>
